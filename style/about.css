@@ -156,7 +156,7 @@ nav ul .current-page {
 }
 
 .contact {
-  margin: 284px auto 142px auto;
+  margin: 284px auto 221px auto;
   text-align: center;
 }
 
@@ -234,7 +234,7 @@ nav ul .current-page {
 
 footer {
   height: 284px;
-  margin: 221px 0 0 0;
+  margin: 0;
   background-color: #918F89;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -306,5 +306,56 @@ footer ul a:link, footer ul a:visited, footer ul a:hover, footer ul a:active {
   font-weight: 400;
   letter-spacing: 2.5px;
   line-height: 53px;
+}
+
+.header {
+  position: relative;
+}
+
+.header h1 {
+  position: absolute;
+  width: 80px;
+  height: 29px;
+  top: 43%;
+  left: 18%;
+  color: white;
+  font-size: 30px;
+  font-family: dnp-shuei-mincho-pr6n, sans-serif;
+}
+
+.qa {
+  max-width: 474px;
+  margin: 93px auto 86px auto;
+  font-family: dnp-shuei-mincho-pr6n, sans-serif;
+}
+
+.qa h1 {
+  text-align: center;
+  font-size: 21px;
+  margin: 0 auto 70px 0;
+}
+
+.qa .reserving {
+  position: relative;
+  height: 120px;
+}
+
+.qa .reserving a {
+  position: absolute;
+  font-size: 16px;
+}
+
+.qa .reserving .open {
+  position: absolute;
+  top: 50px;
+}
+
+.qa .reserving .open p {
+  text-align: left;
+  font-size: 12px;
+  font-family: dnp-shuei-gothic-kin-std, sans-serif;
+  font-weight: 400;
+  letter-spacing: 0.36px;
+  line-height: 22px;
 }
 /*# sourceMappingURL=about.css.map */

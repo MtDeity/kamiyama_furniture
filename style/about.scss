@@ -150,7 +150,7 @@ nav {
 }
 
 .contact {
-  margin: 284px auto 142px auto;
+  margin: 284px auto 221px auto;
   text-align: center;
   h1 {
     margin-bottom: 60px;
@@ -202,7 +202,7 @@ nav {
 
 footer {
   height: 284px;
-  margin: 221px 0 0 0;
+  margin: 0;
   background-color: #918F89;
   display: flex;
   justify-content: space-between;
@@ -256,3 +256,47 @@ footer {
 }
 
 // qa.html用
+.header {
+  position: relative;
+  h1 {
+    position: absolute;
+    width:80px;
+    height:29px;
+    top: 43%;
+    left:18%;
+    color: white;
+    font-size: 30px;
+    font-family: dnp-shuei-mincho-pr6n, sans-serif;
+  }
+}
+
+.qa {
+  max-width: 474px;
+  margin: 93px auto 86px auto;
+  font-family: dnp-shuei-mincho-pr6n, sans-serif;
+  h1 {
+    text-align: center;
+    font-size: 21px;
+    margin: 0 auto 70px 0;;
+  }
+  .reserving {
+    position: relative;
+    height: 120px;
+    a {
+      position: absolute;
+      font-size: 16px;
+    }
+    .open {
+      position: absolute;
+      top: 50px;
+      p {
+        text-align: left;
+        font-size: 12px;
+        font-family: dnp-shuei-gothic-kin-std, sans-serif;
+        font-weight: 400;
+        letter-spacing: 0.36px;
+        line-height: 22px;
+      }
+    }
+  }
+}
