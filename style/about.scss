@@ -225,3 +225,34 @@ footer {
     }
   }
 }
+
+// news.html用
+.latest {
+  margin: 96px auto 300px auto;
+  text-align: center;
+  h1 {
+    margin-bottom: 50px;
+    font-size: 25px;
+    font-family: dnp-shuei-mincho-pr6n, sans-serif;
+    font-weight: 400;
+    letter-spacing: 2.5px;
+    line-height: 53px;
+  }
+  .img-box {
+    display: flex;
+    margin: 0 auto;
+    width: 86%;
+    align-items: center;
+    justify-content: space-around;
+  }
+  p {
+    margin: 50px;
+    font-size: 21px;
+    font-family: dnp-shuei-mincho-pr6n, sans-serif;
+    font-weight: 400;
+    letter-spacing: 2.5px;
+    line-height: 53px;
+  }
+}
+
+// qa.html用

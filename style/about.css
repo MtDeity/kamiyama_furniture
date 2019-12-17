@@ -271,4 +271,40 @@ footer ul a:link, footer ul a:visited, footer ul a:hover, footer ul a:active {
   -webkit-text-emphasis: none;
           text-emphasis: none;
 }
+
+.latest {
+  margin: 96px auto 300px auto;
+  text-align: center;
+}
+
+.latest h1 {
+  margin-bottom: 50px;
+  font-size: 25px;
+  font-family: dnp-shuei-mincho-pr6n, sans-serif;
+  font-weight: 400;
+  letter-spacing: 2.5px;
+  line-height: 53px;
+}
+
+.latest .img-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 auto;
+  width: 86%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.latest p {
+  margin: 50px;
+  font-size: 21px;
+  font-family: dnp-shuei-mincho-pr6n, sans-serif;
+  font-weight: 400;
+  letter-spacing: 2.5px;
+  line-height: 53px;
+}
 /*# sourceMappingURL=about.css.map */
