@@ -55,6 +55,11 @@ nav ul {
   font-weight: 200;
 }
 
+nav ul .current-page {
+  border-bottom: 2px solid black;
+  padding: 16.5px 0 16.5px 0;
+}
+
 .header img {
   width: 100%;
 }
