@@ -17,6 +17,11 @@ input, textarea, button {
   display: block;
 }
 
+a:link, a:visited, a:hover, a:active {
+  color: #272727;
+  text-decoration: none;
+}
+
 .wrapper {
   background-color: #FCFCFC;
   color: #272727;
@@ -259,5 +264,11 @@ footer ul {
   font-family: noto-sans-extralight, sans-serif;
   font-weight: 100;
   font-size: 18px;
+}
+
+footer ul a:link, footer ul a:visited, footer ul a:hover, footer ul a:active {
+  color: white;
+  -webkit-text-emphasis: none;
+          text-emphasis: none;
 }
 /*# sourceMappingURL=about.css.map */
