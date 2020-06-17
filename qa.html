@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" type="text/css" href="./style.css">
+  <script src="script.js"></script>
+  <title>HTML CSS</title>
+</head>
+
+<body>
+  <div class="wrapper">
+    <nav>
+      <img src="./img/logo.png" alt="" class="logo">
+      <ul class="navbar">
+        <li><a href="./about.html">About</a></li>
+        <li><a href="./news.html">News</a></li>
+        <li class="current-page">Q&A</li>
+      </ul>
+    </nav>
+
+    <div class="header">
+      <img src="./img/QA.png" alt="" class="header-img">
+      <h1>Q&A</h1>
+    </div>
+
+    <div class="qa">
+      <h1>よくある質問</h1>
+      <div class="reserving">
+        <div onclick="obj=document.getElementById('open1').style; obj.display=(obj.display=='none')?'block':'none';">
+          <a style="cursor:pointer;">家具の取り置きは可能でしょうか</a>
+        </div>
+        <div class="open" id="open1" style="display:none;clear:both;">
+          <p>可能です。</p>
+          <p>取り置き期間は最大で3週間です。</p>
+        </div>
+      </div>
+      <div class="reserving">
+        <div onclick="obj=document.getElementById('open2').style; obj.display=(obj.display=='none')?'block':'none';">
+          <a style="cursor:pointer;">家具の取り置きは可能でしょうか</a>
+        </div>
+        <div class="open" id="open2" style="display:none;clear:both;">
+          <p>可能です。</p>
+          <p>取り置き期間は最大で3週間です。</p>
+        </div>
+      </div>
+      <div class="reserving">
+        <div onclick="obj=document.getElementById('open3').style; obj.display=(obj.display=='none')?'block':'none';">
+          <a style="cursor:pointer;">家具の取り置きは可能でしょうか</a>
+        </div>
+        <div class="open" id="open3" style="display:none;clear:both;">
+          <p>可能です。</p>
+          <p>取り置き期間は最大で3週間です。</p>
+        </div>
+      </div>
+      <div class="reserving">
+        <div onclick="obj=document.getElementById('open4').style; obj.display=(obj.display=='none')?'block':'none';">
+          <a style="cursor:pointer;">家具の取り置きは可能でしょうか</a>
+        </div>
+        <div class="open" id="open4" style="display:none;clear:both;">
+          <p>可能です。</p>
+          <p>取り置き期間は最大で3週間です。</p>
+        </div>
+      </div>
+      <div class="reserving">
+        <div onclick="obj=document.getElementById('open5').style; obj.display=(obj.display=='none')?'block':'none';">
+          <a style="cursor:pointer;">家具の取り置きは可能でしょうか</a>
+        </div>
+        <div class="open" id="open5" style="display:none;clear:both;">
+          <p>可能です。</p>
+          <p>取り置き期間は最大で3週間です。</p>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <img src="./img/logo_white.png" alt="" class="logo">
+      <ul class="navbar">
+        <li><a href="./about.html">About</a></li>
+        <li><a href="./news.html">News</a></li>
+        <li>Q&A</li>
+      </ul>
+    </footer>
+  </div>
+</body>
+
+</html>
